@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "543bac93-fc87-4bde-b2c2-616f25274d96"
+      }
+    },
+    "android": {
+      "package": "com.the_datta_01.stedu"
+    }
+  }
+}
