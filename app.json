@@ -1,12 +1,34 @@
 {
   "expo": {
-    "extra": {
-      "eas": {
-        "projectId": "543bac93-fc87-4bde-b2c2-616f25274d96"
-      }
+    "name": "NoteForge",
+    "slug": "NoteForge",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon.png",
+    "scheme": "stedu",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
     },
     "android": {
-      "package": "com.the_datta_01.stedu"
-    }
+      "package": "com.datta.stedu",
+      "adaptiveIcon": {
+        "foregroundImage": "./icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdge": true
+    },
+    "web": {
+      "favicon": "./icon.png"
+    },
+    "plugins": [
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7796b631-d05f-4ece-a76d-3b36e86ae92a"
+      }
+    },
+    "owner": "the_datta_01"
   }
 }
